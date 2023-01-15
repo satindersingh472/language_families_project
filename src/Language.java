@@ -16,10 +16,16 @@ public class Language {
     }
 
     public static void main(String[] args){
-//    Language punjabi = new Language("punjabi",200000,"Punjab, Canada","subject-verb-object");
-//    punjabi.getInfo();
+
     Mayan kiche = new Mayan("Ki'che'",2330000);
     kiche.getInfo();
+
+    SinoTibetan chinese = new SinoTibetan("Chinese",1400000000);
+    chinese.getInfo();
+
+    SinoTibetan burmese = new SinoTibetan("Burmese",500000);
+    burmese.getInfo();
+
 
     }
 }
